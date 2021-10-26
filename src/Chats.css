@@ -1,0 +1,43 @@
+.chat_page{
+    display: flex;
+    flex-direction: column;
+
+}
+.navbar{
+    display: flex;
+    padding: 9px;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+.navbar_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  margin: 5px;
+    color: white;
+   
+    
+}
+.navbar_logo>h1{
+    font-weight: 400;
+}
+
+.navbar_logout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color: white;
+    padding: 10px;
+    cursor: pointer;
+    
+    font-size: medium;
+}
+.navbar_logout>h4{
+    font-weight: 400;
+}

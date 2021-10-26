@@ -1,0 +1,61 @@
+.login_page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.login_card{
+    border-radius: 15px !important;
+    padding: 25px;
+}
+.login_details{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    
+   
+}
+.login_button{
+    /* width: 100%; */
+    padding: 10px !important;
+    margin: 15px !important;
+    background: #009FFF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ec2F4B, #009FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.login_card>.login_details>h2{
+    margin-bottom:20px ;
+}
+.login_buttonGoogle{
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight:500;
+}
+.login_buttonFacebook{
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight:500;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer>p{
+    font-weight:500;
+    margin-bottom: 3px;
+}
+
+.footer>span{
+    font-weight:500;
+}
