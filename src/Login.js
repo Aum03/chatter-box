@@ -44,6 +44,8 @@ function Login() {
     auth.signInWithRedirect(new firebase.auth.FacebookAuthProvider());
   };
 //console.log(user);
+
+
   return (
     <div className="login_page">
       <div>
@@ -60,7 +62,7 @@ function Login() {
               <div className="login_buttonFacebook">Sign in with Facebook</div>
             </Button>
             <div className="footer">
-            <p class="text-gray-400 text-sm text-center sm:text-left">© 2021 Aum Yadav
+            <p className="text-gray-400 text-sm text-center sm:text-left">© 2021 Aum Yadav
             
             </p>
             <span >All rights reserved</span>

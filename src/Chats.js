@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useEffect } from "react";
 import { ChatEngine } from "react-chat-engine";
+import { MessageBubble } from 'react-chat-engine'
 import { useHistory } from "react-router-dom";
 import "./Chats.css";
 import { auth } from "./firebase";
@@ -46,7 +47,7 @@ function Chats() {
         formData.append("secret", user.uid);
         getfile(user.photoURL).then((avatar) => {
           formData.append("avatar", avatar, avatar.name);
-          axios.post("https://api.chatengine.io/users", formData, {
+          axios.post("https://api.chatengine.io/users/", formData, {
             headers: {
               "private-key":process.env.REACT_APP_CHAT_ENGINE_KEY,
             },
@@ -73,6 +74,7 @@ function Chats() {
       <div>
         <ChatEngine
           height="89.2vh"
+        
           projectID={ process.env.REACT_APP_CHAT_ENGINE_ID}
           userName={user.email}
           userSecret={user.uid}

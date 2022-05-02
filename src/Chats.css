@@ -41,3 +41,28 @@
 .navbar_logout>h4{
     font-weight: 400;
 }
+
+ .ql-toolbar.ql-snow{
+    background-color: #424242 !important;
+}
+.ql-snow .ql-stroke{
+    stroke: white !important;
+}
+/* .anticon svg{
+    color: white !important;
+} */
+
+.ql-fill{
+    fill: white !important;
+}
+.ql-snow.ql-toolbar button{
+    color: white !important;
+} 
+ .ql-editor{
+    color: white !important;
+    background-color: #424242;
+} 
+#ce-send-message-button{
+    background-color: green !important;
+}
+
